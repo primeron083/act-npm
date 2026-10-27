@@ -10,18 +10,6 @@ function App() {
 
   return (
     <>
-      <button
-      onClick={() => {
-    confetti({
-      particleCount: 150,
-      spread: 80,
-      origin: { y: 0.6 }
-    })
-    }}
-      >
-  Lanzar confeti
-</button>
-      <Canvas-confetti></Canvas-confetti>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />

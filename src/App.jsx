@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-      <PlanetScene/>
       <button
         onClick={() => {
           Confetti

@@ -3,14 +3,25 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import Confetti from 'react-confetti'
+import Confetti from 'canvas-confetti'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Confetti></Confetti>
+      <button
+        onClick={() => {
+          Confetti
+          ({
+            particleCount: 150,
+            spread: 80,
+            origin: { y: 0.6 }
+          });
+        }}
+      >
+        Lanzar confeti
+      </button>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />

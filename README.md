@@ -9,5 +9,5 @@ profe tu dijiste q 3 imagenes pero en la actividad pides 4
 no, solo se elimina de node_modules pero no se modifica el respositorio.
 
 
-alfinal lo intente de mil maneras y me dio pagina en blanco
+alfinal lo intente de mil maneras y lo LOGRE
 [link del dist ](https://primeron083.github.io/act-npm-1/)
